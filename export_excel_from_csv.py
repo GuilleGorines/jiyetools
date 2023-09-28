@@ -82,7 +82,6 @@ def parse_args(args=None):
         "--it_has_index",
         dest = "index",
         action = "store_true",
-        type = bool,
         help = "whether or not the input file has index (if the rows are named)" 
     )
 
@@ -90,7 +89,6 @@ def parse_args(args=None):
         "--it_has_header",
         dest = "header",
         action = "store_true",
-        type = bool,
         help = "whether or not the input file has headers (if the columns are named)" 
     )
 
